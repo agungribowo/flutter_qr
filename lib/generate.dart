@@ -100,7 +100,7 @@ class GenerateScreenState extends State<GenerateScreen> {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 10.0),
-                        child:  FlatButton(
+                        child:  TextButton(
                           child:  Text("SUBMIT"),
                           onPressed: () {
                             setState((){

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_qr/scan.dart';
 import 'package:flutter_qr/generate.dart';
-import 'package:flutter/rendering.dart';
 
 class HomeScreen extends StatelessWidget {
 
@@ -20,10 +19,7 @@ class HomeScreen extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                       padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-                      child: RaisedButton(
-                          color: Colors.blue,
-                          textColor: Colors.white,
-                          splashColor: Colors.blueGrey,
+                      child: ElevatedButton(
                           onPressed: () {
                             Navigator.push(
                               context,
@@ -35,10 +31,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                    Padding(
                       padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-                      child: RaisedButton(
-                          color: Colors.blue,
-                          textColor: Colors.white,
-                          splashColor: Colors.blueGrey,
+                      child: ElevatedButton(
                           onPressed: () {
                             Navigator.push(
                               context,

@@ -30,10 +30,7 @@ class _ScanState extends State<ScanScreen> {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-                child: RaisedButton(
-                    color: Colors.blue,
-                    textColor: Colors.white,
-                    splashColor: Colors.blueGrey,
+                child: ElevatedButton(
                     onPressed: scan,
                     child: const Text('START CAMERA SCAN')
                 ),
